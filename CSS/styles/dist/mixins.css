@@ -1,0 +1,19 @@
+h2 {
+  background-color: blue;
+  letter-spacing: 3px;
+  color: chartreuse;
+  text-transform: uppercase;
+  color: palevioletred;
+}
+
+h3 {
+  background-color: blue;
+  letter-spacing: 3px;
+  color: chartreuse;
+  text-transform: uppercase;
+}
+
+p {
+  background-color: cyan;
+  color: white;
+}

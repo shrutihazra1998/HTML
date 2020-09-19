@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js demo</title>
+    <script>
+        var student={
+            name:'raju',
+            age:32,
+            hobbies:['sports', 'music'],
+            address:{
+                city: 'banglore',
+                state:'karnataka'
+            }
+        };
+        document.write(student);
+        document.write(student.name);
+        document.write(student.address.city);
+        student.studId=20;
+        student.hasMobile = true
+
+        for(const key in student){
+            const element = student[key];
+            document.write(key+" "+element);
+
+        }
+        var student1 ={
+            name: 'raju',studId:20
+        };
+        document.write(student1.name);
+
+
+         var student1 ={
+         name:'raju', studid:20
+          };
+        document.write(student1);
+    </script> 
+</head>
+<body>
+
+</body>
+</html>
