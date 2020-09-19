@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Form Validation</title>
+	<script>
+	function validateForm(){
+	username = document.myform.uname.value;
+    if(username ==""||username.length<3)
+    {
+		alert("enter your name");
+    }
+        else
+        {
+		alert("You are registered")
+		document.myform.submit();
+	}
+}	
+function validate(){
+	if(document.getElementById("username").value==""){
+		alert("enter your name");}
+        else{
+		alert("You are registered")
+		document.myform.submit();
+        
+	}
+}	
+	</script>
+</head>
+<body>
+    <form action="formsuccess.html" name="myform">
+        Name<input type="text" name="uname" id="username" ><br>
+        <input type="button" value="Click here " onclick="validateForm()">
+  
+
+  
+</form>
+
+</body>
+</html>
