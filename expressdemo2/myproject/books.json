@@ -1,0 +1,32 @@
+[{
+
+    "title":"The Kite Runner",
+    "price":200,
+    "category":"Fiction",
+    "author":"Khaled Hosseini"
+},
+{
+    "title":"Emma",
+    "price":300,
+    "category":"Fiction",
+    "author":"Jane Austen"
+},
+{
+    "title" : "Eternal India",
+    "author" : "Indira Gandhi",
+    "price": 300,
+    "category":"Non Fiction"
+},
+{
+    "title":"2 states",
+    "price":100,
+    "category":"Fiction",
+    "author":"Chetan Bhagat"
+},
+{
+    "title":"OOPS",
+    "price":500,
+    "category":"Science Fiction",
+    "author":"Charlie Chaplin"
+}
+]
