@@ -1,0 +1,12 @@
+var msg = "Hello Aliens";
+console.log(msg);
+var value;
+value = 'Ram';
+console.log('welcome', value);
+console.log(typeof (value));
+value = 300;
+console.log('val', value);
+console.log(typeof (value));
+var message = 'hello';
+message = 90;
+console.log(msg);
